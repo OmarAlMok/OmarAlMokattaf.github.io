@@ -109,6 +109,10 @@ input, select, textarea {
  center;
 	}
 
+	body.central-city {
+		background-image: url("../../images/bg.jpg");
+	}
+
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
 			-moz-animation: none !important;
 			-webkit-animation: none !important;
