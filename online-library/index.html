@@ -27,9 +27,8 @@
 							<h2>Menu</h2>
 							<ul class="links">
 								<li><a href="../index.html">Portfolio Home</a></li>
-								
-								<li><a href="subpage.html">Images of the Online Library</a></li>
 								<li><a href="elements.html">How to run & About </a></li>
+								<li><a href="subpage.html">Images of the Online Library</a></li>
 								<li><a href="download.html">Download</a></li>
 								
 							</ul>
@@ -41,7 +40,7 @@
 					<section id="banner">
 						<div class="inner">
 							<h2>Online Library</h2>
-							<p>A digital collection of resources and knowledge.</p>
+							<p>A digital collection of books.</p>
 						</div>
 					</section>
 
@@ -54,24 +53,13 @@
 
 									<h3 class="major">Online Library Project</h3>
 
-									<p>Step into the future of digital reading with the Online Library, an intelligent desktop application that blends a sleek PyQt6 interface with the power of a Flask backend. Designed for speed, simplicity, and an effortless user experience, this system transforms the way users discover and borrow books.</p>
+									<p>The Online Library is a desktop application that lets users manage and borrow books through a PyQt6 GUI connected to a Flask backend. Each book includes metadata such as name, author, publication date, category, and whether it is currently borrowed. All data is stored persistently in a JSON file and reloaded each time the program starts.</p>
 
-									<p>Browse a fully interactive catalog, explore titles by category, and search with precision using an exact-match name lookup. Every book includes rich metadata—author, publication date, category, and availability—instantly synchronized across the GUI and backend via real-time HTTP communication.</p>
+									<p>The Flask backend provides REST-style endpoints for listing, filtering, searching, adding, deleting, borrowing, and returning books. The GUI communicates with the backend via HTTP requests, allowing users to view the catalog, filter by category or status, search for exact titles, and manage book actions in real time.</p>
 
-									<p>With just one click, readers can borrow or return books, and the system ensures that no title is borrowed twice. All data is saved securely in a JSON-powered storage engine, so your library is ready the moment you launch it.</p>
-
-									<p>The Online Library isn’t just a project—it’s a complete, modern, and dynamic client–server ecosystem built from the ground up. Fast, responsive, and feature-packed, it delivers an elegant solution to digital media management.</p>
+									<p> This project demonstrates a complete client–server system with clean separation between the interface, logic, and storage. It delivers a simple, reliable, and efficient way to organize and interact with a digital book collection.</p> 
 								</div>
-							<section id="one" class="wrapper spotlight style1">
-								<div class="inner">
-									<a href="subpage.html" class="image"><img src="../images/book.png" alt="" /></a>
-									<div class="content">
-										<h2 class="major">Images of the Online Library</h2>
-										<p>Images of the implemented Flask and GUI</p>
-										<a href="subpage.html" class="special">Click here</a>
-									</div>
-								</div>
-							</section>
+
 							<section id="one" class="wrapper spotlight style1">
 								<div class="inner">
 									<a href="elements.html" class="image"><img src="../images/information.png" alt="" /></a>
@@ -82,6 +70,17 @@
 									</div>
 								</div>
 							</section>
+							<section id="one" class="wrapper spotlight style1">
+								<div class="inner">
+									<a href="subpage.html" class="image"><img src="../images/book.png" alt="" /></a>
+									<div class="content">
+										<h2 class="major">Images of the Online Library</h2>
+										<p>Images of the implemented Flask and GUI</p>
+										<a href="subpage.html" class="special">Click here</a>
+									</div>
+								</div>
+							</section>
+							
 							<section id="one" class="wrapper spotlight style1">
 								<div class="inner">
 									<a href="download.html" class="image"><img src="../images/download.jpg" alt="" /></a>
