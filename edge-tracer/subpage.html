@@ -1,0 +1,84 @@
+<!DOCTYPE HTML>
+<!-- Solid State by HTML5 UP html5up.net | @ajlkn Free for personal and commercial use under the CCA 3.0 license (html5up.net/license) -->
+<html>
+	<head>
+		<title>Edge Tracer — GUI & Images</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="../assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="../assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+
+		<div id="page-wrapper">
+
+			<header id="header" class="alt">
+				<h1><a href="index.html">Edge Tracer</a></h1>
+				<nav>
+					<a href="#menu">Menu</a>
+				</nav>
+			</header>
+
+			<nav id="menu">
+				<div class="inner">
+					<h2>Menu</h2>
+					<ul class="links">
+						<li><a href="index.html">Home</a></li>
+						<li><a href="subpage.html">GUI & Images</a></li>
+					</ul>
+					<a href="#" class="close">Close</a>
+				</div>
+			</nav>
+
+			<section id="banner">
+				<div class="inner">
+					<h2>Edge Tracer</h2>
+					<p>Auto-calibrated Canny edge detection for fast image contour extraction.</p>
+				</div>
+			</section>
+
+			<section id="wrapper">
+				<div class="inner">
+					<h3 class="major">Application Overview</h3>
+					<p>The Edge Tracer interface loads an image and runs a pure NumPy Canny pipeline to create an edge map and overlay result. Thresholds are set automatically so users can focus on the output without manual tuning.</p>
+					<div style="text-align: center;"><img src="../images/edge_tracer_gui.png" alt="Edge Tracer GUI placeholder" style="width: 100%; max-width: 760px; border: 1px solid #2a2a40; border-radius: 12px;"></div>
+
+					<h3 class="major">Before and After: Lighthouse</h3>
+					<p style="text-align:center; font-weight:700;">Before</p>
+					<div style="text-align: center;"><img src="../images/lighthouse.png" alt="Lighthouse source image" style="width: 100%; max-width: 480px; border: 1px solid #2a2a40; border-radius: 12px;"></div>
+					<p style="text-align:center; font-weight:700;">After</p>
+					<div style="text-align: center;"><img src="../images/edge_detection_results.png" alt="Lighthouse edge detection result" style="width: 100%; max-width: 760px; border: 1px solid #2a2a40; border-radius: 12px;"></div>
+
+					<h3 class="major">Before and After: Piano</h3>
+					<p style="text-align:center; font-weight:700;">Before</p>
+					<div style="text-align: center;"><img src="../images/piano.png" alt="Piano source image" style="width: 100%; max-width: 480px; border: 1px solid #2a2a40; border-radius: 12px;"></div>
+					<p style="text-align:center; font-weight:700;">After</p>
+					<div style="text-align: center;"><img src="../images/edge_detection_results2.png" alt="Piano edge detection result" style="width: 100%; max-width: 760px; border: 1px solid #2a2a40; border-radius: 12px;"></div>
+
+					<h3 class="major">Before and After: Desk</h3>
+					<p style="text-align:center; font-weight:700;">Before</p>
+					<div style="text-align: center;"><img src="../images/desk.png" alt="Desk source image" style="width: 100%; max-width: 480px; border: 1px solid #2a2a40; border-radius: 12px;"></div>
+					<p style="text-align:center; font-weight:700;">After</p>
+					<div style="text-align: center;"><img src="../images/edge_detection_results3.png" alt="Desk edge detection result" style="width: 100%; max-width: 760px; border: 1px solid #2a2a40; border-radius: 12px;"></div>
+				</div>
+			</section>
+
+			<section id="footer">
+				<div class="inner">
+					<ul class="copyright">
+						<li>&copy; Edge Tracer. All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+					</ul>
+				</div>
+			</section>
+
+		</div>
+
+		<script src="../assets/js/jquery.min.js"></script>
+		<script src="../assets/js/jquery.scrollex.min.js"></script>
+		<script src="../assets/js/browser.min.js"></script>
+		<script src="../assets/js/breakpoints.min.js"></script>
+		<script src="../assets/js/util.js"></script>
+		<script src="../assets/js/main.js"></script>
+
+	</body>
+</html>

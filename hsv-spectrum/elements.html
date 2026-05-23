@@ -1,0 +1,73 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>HSV Spectrum — How to Run</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="../assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="../assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+		<div id="page-wrapper">
+			<header id="header" class="alt">
+				<h1><a href="index.html">HSV Spectrum</a></h1>
+				<nav><a href="#menu">Menu</a></nav>
+			</header>
+
+			<nav id="menu">
+				<div class="inner">
+					<h2>Menu</h2>
+					<ul class="links">
+						<li><a href="index.html">Home</a></li>
+						<li><a href="subpage.html">GUI & Images</a></li>
+						<li><a href="download.html">Run & Download</a></li>
+					</ul>
+					<a href="#" class="close">Close</a>
+				</div>
+			</nav>
+
+			<section id="banner">
+				<div class="inner"><h2>How to Run — HSV Spectrum</h2><p>Dependencies and quick start.</p></div>
+			</section>
+
+			<section id="wrapper">
+				<div class="inner">
+					<h3 class="major">Dependencies</h3>
+					<ul>
+						<li>Python 3.10 or newer</li>
+						<li>PyQt6 — GUI toolkit</li>
+						<li>NumPy — numerical arrays</li>
+						<li>Pillow — image I/O</li>
+					</ul>
+
+					<h3 class="major">Install</h3>
+					<p>Create and activate a virtual environment, then install required packages:</p>
+					<pre><code class="language-bash">python -m venv venv
+venv\Scripts\activate
+pip install --upgrade pip
+pip install PyQt6 numpy Pillow</code></pre>
+
+					<h3 class="major">Run</h3>
+					<p>Place the main GUI script (for example `hsv_spectrum.py`) in the project root and run:</p>
+					<pre><code class="language-bash">python hsv_spectrum.py</code></pre>
+
+					<h3 class="major">Notes & tips</h3>
+					<ul>
+						<li>If Pillow is missing the required image codecs, install `pillow-simd` or ensure libjpeg/libpng are available.</li>
+						<li>Large images may take several seconds to decompose — try sample images in the `images/` folder first.</li>
+						<li>The Export feature saves a side-by-side composite PNG showing H, S, and V panels.</li>
+					</ul>
+				</div>
+			</section>
+
+			<section id="footer"><div class="inner"><ul class="copyright"><li>&copy; HSV Spectrum</li></ul></div></section>
+		</div>
+
+		<script src="../assets/js/jquery.min.js"></script>
+		<script src="../assets/js/jquery.scrollex.min.js"></script>
+		<script src="../assets/js/browser.min.js"></script>
+		<script src="../assets/js/breakpoints.min.js"></script>
+		<script src="../assets/js/util.js"></script>
+		<script src="../assets/js/main.js"></script>
+	</body>
+</html>

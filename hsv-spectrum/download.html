@@ -1,0 +1,84 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>HSV Spectrum — Run & Download</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="../assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="../assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+
+		<div id="page-wrapper">
+
+			<header id="header" class="alt">
+				<h1><a href="index.html">HSV Spectrum</a></h1>
+				<nav>
+					<a href="#menu">Menu</a>
+				</nav>
+			</header>
+
+			<nav id="menu">
+				<div class="inner">
+					<h2>Menu</h2>
+					<ul class="links">
+						<li><a href="index.html">Home</a></li>
+						<li><a href="subpage.html">GUI & Images</a></li>
+						<li><a href="download.html">Run & Download</a></li>
+					</ul>
+					<a href="#" class="close">Close</a>
+				</div>
+			</nav>
+
+			<section id="banner">
+				<div class="inner">
+					<h2>Run HSV Spectrum</h2>
+					<p>Quick instructions to run the PyQt6 HSV decomposition tool.</p>
+				</div>
+			</section>
+
+			<section id="wrapper">
+				<div class="inner">
+					<h3 class="major">Requirements</h3>
+					<ul>
+						<li>Python 3.10+</li>
+						<li>PyQt6</li>
+						<li>NumPy</li>
+						<li>Pillow</li>
+					</ul>
+
+					<h3 class="major">Installation</h3>
+					<p>From the project folder, create a virtual environment and install dependencies:</p>
+					<pre><code class="language-bash">python -m venv venv
+venv\Scripts\activate
+pip install PyQt6 numpy Pillow</code></pre>
+
+					<h3 class="major">Run</h3>
+					<p>Run the main script (the GUI file) with Python:</p>
+					<pre><code class="language-bash">python hsv_spectrum.py</code></pre>
+					<p>The GUI will allow loading an image and exporting the HSV composite.</p>
+
+					<h3 class="major">Notes</h3>
+					<p>The repository includes example images in the `images/` folder used on the subpage for before/after comparisons.</p>
+				</div>
+			</section>
+
+			<section id="footer">
+				<div class="inner">
+					<ul class="copyright">
+						<li>&copy; HSV Spectrum. All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+					</ul>
+				</div>
+			</section>
+
+		</div>
+
+		<script src="../assets/js/jquery.min.js"></script>
+		<script src="../assets/js/jquery.scrollex.min.js"></script>
+		<script src="../assets/js/browser.min.js"></script>
+		<script src="../assets/js/breakpoints.min.js"></script>
+		<script src="../assets/js/util.js"></script>
+		<script src="../assets/js/main.js"></script>
+
+	</body>
+</html>
